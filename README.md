@@ -16,30 +16,6 @@ This tool analyzes sentiment from tweets stored in a CSV file and visualizes the
 ✅ User-selectable tweet count for analysis  
 ✅ Calculates sentiment **percentages** and **average sentiment score**
 
----
-
-## 🧱 Project Structure
-
-SocialMediaSentimentAnalysis/
-├── src/
-│ └── com/
-│ └── sentiment/
-│ ├── Main.java # Entry point
-│ ├── CSVReader.java # Reads tweets from CSV
-│ ├── TweetSentimentAnalyzer.java# CoreNLP logic
-│ └── SentimentDashboard.java # JavaFX charts and tweet viewer
-├── resources/
-│ └── twitter_dataset.csv # Tweet data file
-├── lib/
-│ ├── stanford-corenlp-.jar # CoreNLP jars
-│ └── opencsv-.jar # OpenCSV jar
-└── README.md
-
-yaml
-Copy
-Edit
-
----
 
 ## 🧪 How It Works
 
@@ -71,16 +47,13 @@ Negative : 6 (10.00%)
 Average Sentiment Score: 2.41
 Tweet Count Analyzed : 60
 
-yaml
-Copy
-Edit
-
 ---
 
 ## 📦 Requirements
 
 - Java 11 or later
-- [Stanford CoreNLP](https://stanfordnlp.github.io/CoreNLP/)
+- [Stanford CoreNLP]
+(https://stanfordnlp.github.io/CoreNLP/)
 - OpenCSV (`opencsv-x.x.x.jar`)
 - JavaFX SDK (added to project modules)
 
